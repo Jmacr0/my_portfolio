@@ -42,6 +42,7 @@ header {
   border: solid;
   border-color: #dddddd;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .main {
@@ -80,14 +81,15 @@ li a {
   width: 70px;
   text-decoration: none;
   float: right;
+  
 }
+
 
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
   background-color: rgb(241, 241, 241);
   margin-top: -3px;
-  
-  
+  transition-duration: 0.2s;
   border-bottom: 3px solid #4aaaa5;
 }
 
@@ -110,6 +112,37 @@ img {
   margin-right: 25px;
 }
 
+
+
+
+/*///// PORTFOLIO ///*/
+
+.port-main {
+  width: 96%;
+  background: #ccc;
+  padding: 12px;
+  margin: 10px;
+  height: 56vh;
+}
+
+.port-img {
+  float: left;
+  width: 24%;
+  height: auto; 
+  
+}
+
+.port-img img {
+  width: 50%;
+  height: 50%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.port-row {
+  margin-bottom: 50px;
+  width: 100%;
+}
 
 
 /*///// CONTACT FORM ///*/
@@ -140,15 +173,15 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   margin-left: 190px;
-  transition-duration: 0.2s;
+  
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #ff5e00;
   box-shadow: 2px 2px 2px #8b8b8b;
-  color: #e7e7e7
-  
+  color: #e7e7e7;
+  transition-duration: 0.2s;
 }
 
 /* Add a background color and some padding around the form */
@@ -201,7 +234,7 @@ footer {
 }
 
 #github a:hover {
-  color: #b6b6b6;
+  color: #000000;
 }
 #twitter a:hover {
   color: #1da1f2;
