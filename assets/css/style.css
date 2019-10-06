@@ -89,6 +89,7 @@ li a {
   display: block;
   color: gray;
   text-align: center;
+  height: 47px;
   padding: 14px 16px 15px;
   width: 100px;
   text-decoration: none;
@@ -100,9 +101,10 @@ li a {
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
   background-color: rgb(241, 241, 241);
-  margin-top: -3px;
   transition-duration: 0.2s;
-  border-bottom: 3px solid #4aaaa5;
+  border-bottom: 5px solid #4aaaa5;
+  color: #464646;
+  
 }
 
 #name {
