@@ -31,10 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
-  text-align: center;
-  padding: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin: 10px;
 }
 
 header {
@@ -135,35 +132,47 @@ li a {
 }
 
 .port-img {
+  position: relative;
   float: left;
   width: 25%;
   height: auto; 
   max-width: 229px;
   max-height: 300px;
-  border: 8px solid #003261;
-  margin-bottom: 20px;
+  /* border: 8px solid #003261;
+  border-radius: ; */
+  margin-bottom: 0px;
+  background-color: #000000;
+  overflow: hidden;
 }
 
-.port-img:hover {
+
+/* .port-img:hover {
   border-color: #2871ad;
   transition-duration: 0.2s;
-  
-}
-
+    
+} */
 
 .port-img img {
   width: 100%;
   height: 100%;
   max-height: 300px;
+  opacity: 0.7;
+  transform: scale(1.15);
 }
 
+.port-img img:hover {
+  opacity: 1;
+  transition-duration: 0.2s;
+  transform: scale(1.03);
+  
+}
 
 
 .port-desc {
   display: block;
   float: left;
   width: 229px;
-  height: 300px;
+  height: auto;
   
 
 }
@@ -245,6 +254,7 @@ footer {
   right: 0px;
   margin-bottom: 0px;
   border-top: 5px solid #4aaaa5;
+  z-index: 9999;
 }
 
 
