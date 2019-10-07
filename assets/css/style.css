@@ -1,4 +1,4 @@
-/*///// UNIVERSAL ///*/
+/*///////////////////////////// UNIVERSAL //////////////////////////*/
 
 * {
   margin: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 p {
-  line-height: 20px;
+  line-height: 23px;
   letter-spacing: 1px;
   color: #777777; 
 }
@@ -33,7 +33,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3 {
-  margin: 10px;
+  margin: 0 10px 20px 0;
+  text-align: left;
 }
 
 header {
@@ -55,6 +56,8 @@ header {
 
 
 
+
+
 .clearfix {
   content: "";
   clear: both;
@@ -65,7 +68,7 @@ hr {
   margin-bottom: 30px;
 }
 
-/*///// NAV BAR ////*/
+/*/////////////////////////////// NAV BAR ///////////////////////////*/
 
 .nav {
   position: fixed;
@@ -96,9 +99,8 @@ li a {
   color: gray;
   text-align: center;
   height: 47px;
+  width: 150px;
   padding: 14px 16px 15px;
-  margin-left: 20px;
-  width: 100px;
   text-decoration: none;
   float: right;
   letter-spacing: 2px;
@@ -126,10 +128,11 @@ li a {
   float: left;
   background-color: #4aaaa5;
   border-bottom: 2px solid #838383;
+  
 }
 
 
-/*///// CONTENT ///*/
+/*/////////////////////////////// CONTENT ////////////////////////////*/
 
 #profile-pic {
   float: left;
@@ -139,9 +142,17 @@ li a {
   margin-bottom: 10px;
 }
 
+.content h1 {
+  font-size: 30px;
+}
+
+.main p {
+  padding-bottom: 20px;
+}
 
 
-/*///// PORTFOLIO ///*/
+
+/*////////////////////////////// PORTFOLIO ///////////////////////////*/
 
 .port-main {
   width: 96%;
@@ -211,7 +222,7 @@ li a {
 }
 
 
-/*///// CONTACT FORM ///*/
+/*//////////////////////////////// CONTACT FORM //////////////////////////////*/
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -263,7 +274,7 @@ form {
   margin-top: 30px;
 }
 
-/*///// FOOTER ///*/
+/*/////////////////////////////////// FOOTER ///////////////////////////////*/
 
 footer {
   position: fixed;
@@ -294,6 +305,7 @@ footer {
 
 .foot-nav li a:hover {
   background-color: #555555;
+  transition: 0.2s;
 }
 
 #linkedin a:hover {
